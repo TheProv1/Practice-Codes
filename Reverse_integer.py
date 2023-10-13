@@ -24,11 +24,8 @@ class Solution:
         
         if x >= 0:
             rev_1_str = str(x)
-            rev = ""
+            rev = rev_1_str[::-1]
 
-            for i in range(len(rev_1_str),0,-1):
-                rev = rev + rev_1_str[i-1]
-            
             if ((int(rev) >= (-2**31)) and (int(rev) <= (2**31) - 1)):
                 return int(rev)
             else:
@@ -37,13 +34,11 @@ class Solution:
         else:
             
             modified_int = x + (-2 * x)
-            rev_1 = str(modified_int)
-            rev = ""
+            rev = int(str(modified_int)[::-1])
 
-            for i in range(len(rev_1),0,-1):
-                rev = rev + str(rev_1[i-1])
-            
-            if ((int(rev) >= (-2**31)) and (int(rev) <= (2**31) - 1)):
-                return (int(rev) - (2*int(rev)))
+            out = rev - (2 * rev)
+
+            if ((out >= (-2**31)) and (out <= (2**31) - 1)):
+                return out
             else:
                 return 0
