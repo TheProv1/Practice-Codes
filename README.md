@@ -3,9 +3,10 @@
 # LeetCode-Codes
 This repository comprises some Leet Code codes.
 
-## Solution Language
+## Solution Language(s)
 
 Python
+Java
 
 ## Authors
 
