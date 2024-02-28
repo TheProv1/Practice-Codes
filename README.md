@@ -3,7 +3,7 @@ This repository comprises some Leet Code codes.
 
 ## Solution Language(s)
 
-C, Python, Java
+C(2), Python(3), Java(1)
 
 ## Authors
 
