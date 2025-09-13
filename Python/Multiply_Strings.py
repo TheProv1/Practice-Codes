@@ -1,0 +1,11 @@
+'''
+Multiply two non-negative numbers represented as strings and return their product as a string
+'''
+
+class Solution:
+    def multiply(self, num1: str, num2: str) -> str:
+        num1 = int(num1)
+        num2 = int(num2)
+
+        ans = str(num1 * num2)
+        return ans
