@@ -3,4 +3,4 @@ This repository comprises some Leet Code codes.
 
 ## Solution Language(s)
 
-C, Java, Python, SQL
+C, Java, Python and SQL
